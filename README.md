@@ -3,7 +3,7 @@
 In the new version of PHP so many features have been added and upgraded, let's see them togather.
 
 
-## Named arguments
+## 1. Named arguments
 Now we can pass all arguments with there name to any function.
 #### PHP-7
 ```php
@@ -24,7 +24,7 @@ $this->anyFunction('Name', city:'Berlin')
 Source: [php-8/named-arguments](https://www.php.net/releases/8.0/en.php#named-arguments)
 
 
-## Attributes
+## 2. Attributes
 Instead of PHPDoc annotations to document a function, you can now use structured metadata with PHP's native syntax. 
 
 #### PHP-7
@@ -50,7 +50,7 @@ class anyClass {
 Source: [php-8/attributes](https://www.php.net/releases/8.0/en.php#attributes)
 
 
-## Constructor property promotion
+## 3. Constructor property promotion
 Usually to initialize a class and assign a value to all porperties, you have to deffine all properties and give the a value in the constructre. 
 Like in PHP-7
 #### PHP-7
@@ -79,7 +79,7 @@ class anyClass {
 Source: [php-8/constructor-property-promotion](https://www.php.net/releases/8.0/en.php#constructor-property-promotion)
 
 
-## Union types
+## 4. Union types
 In PHP you do not have to deffine a type of an attribute, but you can wherever you want change the type of an attribute.
 
 #### PHP-7
@@ -98,7 +98,7 @@ $new_number = (string)$number; // Wrong and gives error
 ```
 Source: [php-8/union-types](https://www.php.net/releases/8.0/en.php#union-types)
 
-## Match expression
+## 5. Match expression
 A new expression *"match"*, similer to switch but in simpler way.
 
 #### PHP-7
@@ -126,7 +126,7 @@ $result = match (5) {
 The highlight here is: you can direct assign the expression to an attribute.
 Source: [php-8/match-expression](https://www.php.net/releases/8.0/en.php#match-expression)
 
-## Nullsafe operator
+## 6. Nullsafe operator
 In PHP if you tried to get an attribut of a null object you will get an error.
 
 #### PHP-7
@@ -158,7 +158,7 @@ In PHP if you tried to compare an number with string using the "==" operator tha
 Source: [php-8/saner-string-to-number-comparisons](https://www.php.net/releases/8.0/en.php#saner-string-to-number-comparisons)
 
 
-## Consistent type errors for internal functions
+## 7. Consistent type errors for internal functions
 In PHP-7 if you trtied for example to get size of an empty array you will get a worning.
 
 In PHP-8 you will get an error if you tried to get a size of an empty array.
