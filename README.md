@@ -143,7 +143,7 @@ echo $car?->color; // If $car is a null-object this will gives NULL instade of a
 ```
 Source: [php-8/nullsafe-operator](https://www.php.net/releases/8.0/en.php#nullsafe-operator)
 
-## Saner string to number comparisons
+## 7. Saner string to number comparisons
 In PHP if you tried to compare an number with string using the "==" operator that will gives `true`
 
 #### PHP-7
@@ -158,7 +158,7 @@ In PHP if you tried to compare an number with string using the "==" operator tha
 Source: [php-8/saner-string-to-number-comparisons](https://www.php.net/releases/8.0/en.php#saner-string-to-number-comparisons)
 
 
-## 7. Consistent type errors for internal functions
+## 8. Consistent type errors for internal functions
 In PHP-7 if you trtied for example to get size of an empty array you will get a worning.
 
 In PHP-8 you will get an error if you tried to get a size of an empty array.
